@@ -10,6 +10,11 @@
     float: left;
 }
 
+.col-form{
+    text-align: center;
+    padding: 1% 2%;
+}
+
 .clearfix::after{
     content:"";
     display: table;
@@ -30,6 +35,21 @@ body{
     font-size: 12px;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.gray-text{
+    color: gray;
+}
+.green-text{
+    color: #7cbb02;
+    font-size: 22px;
+    margin: 10% 0;
+}
+
+hr{
+    width: 25px;
+    margin: auto;
+    margin-bottom: 10%;
 }
 
 /* HEADER */
@@ -133,6 +153,10 @@ header{
 }
 
 /* MAIN */
+.main-container{
+    width: 80%;
+    margin: 5% auto;
+}
 
 /*Banner*/
 .banner{
@@ -150,4 +174,22 @@ header{
 .banner-text p{
     color: gray;
     margin-top: 1%;
+}
+
+/*Main Content*/
+
+.col-img{
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.col-left{
+    width: 30%;
+}
+.col-center{
+    width: 38%;
+}
+.col-right{
+    width: 30%;
 }
