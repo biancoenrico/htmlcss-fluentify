@@ -38,9 +38,9 @@ header{
     background-image: url(../img/background-header.png);
     background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: 130% 115%;
+    background-position: 118% 115%;
     background-color: #0c325a;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 
@@ -130,4 +130,24 @@ header{
 .buy-plan a{
     color: white;
     text-decoration: none;
+}
+
+/* MAIN */
+
+/*Banner*/
+.banner{
+    height: 150px;
+    background-color: #d3d3d3;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.banner-text p{
+    color: gray;
+    margin-top: 1%;
 }
